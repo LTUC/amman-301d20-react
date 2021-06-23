@@ -232,9 +232,13 @@ Student.prototype.scopeArrow = () => console.log(this);
 console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
-// 1. What is "this" when joe.scope() is invoked? undefined
-//
-// 2. What is "this" when joe.scopeArrow() is invoked? undefined
+// 1. What is "this" when joe.scope() is invoked?
+ 
+//this returend to joe instance...the output to this line =undefined because the fun don't return anything
+
+// 2. What is "this" when joe.scopeArrow() is invoked?
+
+//the output to this line =undefined because Arrow functions don't bind a "this"
 //
 // 3. Explain why "this" is different when an arrow function is used.
 
