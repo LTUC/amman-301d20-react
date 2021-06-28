@@ -237,9 +237,9 @@ console.log(joe.scopeArrow());
 //this returend to joe instance...the output to this line =undefined because the fun don't return anything
 
 // 2. What is "this" when joe.scopeArrow() is invoked?
-
+//the this will refer to the global window object"
 //the output to this line =undefined because Arrow functions don't bind a "this"
-//
+
 // 3. Explain why "this" is different when an arrow function is used.
 
 //  that  happens because arrow functions retain the this value of the enclosing functional scope. Therefore, 
